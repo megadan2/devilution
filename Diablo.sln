@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Diablo", "Diablo.vcxproj", "{6D42E672-DF18-497E-86DF-C1EDF407FF67}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DiabloUI", "DiabloUI\DiabloUI.vcxproj", "{0EE45BCE-299E-429A-801D-AEA777625CAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Storm", "3rdParty\Storm\Source\Storm.vcxproj", "{ACEF320B-3464-4221-B4A7-24D898C13668}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Template|x86 = Template|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Debug|x86.Build.0 = Debug|Win32
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Release|x86.ActiveCfg = Release|Win32
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Release|x86.Build.0 = Release|Win32
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Template|x86.ActiveCfg = Release|Win32
+		{6D42E672-DF18-497E-86DF-C1EDF407FF67}.Template|x86.Build.0 = Release|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Debug|x86.Build.0 = Debug|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Release|x86.ActiveCfg = Release|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Release|x86.Build.0 = Release|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Template|x86.ActiveCfg = Template|Win32
+		{0EE45BCE-299E-429A-801D-AEA777625CAD}.Template|x86.Build.0 = Template|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Debug|x86.ActiveCfg = Debug|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Debug|x86.Build.0 = Debug|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Release|x86.ActiveCfg = Release|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Release|x86.Build.0 = Release|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Template|x86.ActiveCfg = Template|Win32
+		{ACEF320B-3464-4221-B4A7-24D898C13668}.Template|x86.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {781D3353-96F9-4731-954E-20BF04CFB37B}
+	EndGlobalSection
+EndGlobal

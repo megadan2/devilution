@@ -3,3 +3,8 @@
 *.dll
 *.exe
 *.d
+
+.vs/
+WinDebug/
+WinRelease/
+*.vcxproj.user
